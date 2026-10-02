@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sb-bg: #FFF5F8;
+  --color-sb-primary: #F3A6B8;
+  --color-sb-dark: #D97891;
+  --color-sb-surface: #FFFCFA;
+  --color-sb-blue: #BFDFF2;
+  --color-sb-sage: #B8D8C0;
+  --color-sb-yellow: #FFE9A8;
+  --color-sb-text-main: #4A3B40;
+  --color-sb-text-sec: #9A747F;
+
+  --font-sans: "Nunito", sans-serif;
+}
+
+body {
+  background-color: var(--color-sb-bg);
+  color: var(--color-sb-text-main);
+}
