@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://googleapis.com');
 
 @theme {
   --color-sb-bg: #FFF5F8;
@@ -11,10 +12,16 @@
   --color-sb-text-main: #4A3B40;
   --color-sb-text-sec: #9A747F;
 
-  --font-sans: "Nunito", sans-serif;
+  --font-main: 'Mali', cursive;
+  --font-note: 'Patrick Hand', cursive;
 }
 
 body {
   background-color: var(--color-sb-bg);
   color: var(--color-sb-text-main);
+  font-family: var(--font-main);
+}
+
+.quote {
+  font-family: var(--font-note);
 }
